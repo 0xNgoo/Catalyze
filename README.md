@@ -51,7 +51,7 @@ manage contributions and reward contributors.
 ### How to Contribute
 
 1. **Find an Issue**: Browse our project on
-   [OnlyDust](https://app.onlydust.com/) to find open issues that match your
+   [OnlyDust](https://app.onlydust.com/projects/catalyze) to find open issues that match your
    skills and interests.
 
 2. **Fork and Clone**: Fork this repository and clone it to your local machine.
@@ -68,7 +68,7 @@ manage contributions and reward contributors.
 
 ### OnlyDust Platform
 
-We use [OnlyDust](https://app.onlydust.com/) to:
+We use [OnlyDust](https://app.onlydust.com/projects/catalyze) to:
 
 - Track open contributions
 - Manage contribution assignments
