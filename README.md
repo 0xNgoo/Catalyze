@@ -9,7 +9,7 @@ users in emerging markets.
 
 ## Overview
 
-Catalyse aims to foster financial inclusion by allowing users to invest small
+Catalyze aims to foster financial inclusion by allowing users to invest small
 amounts of money, manage their portfolios, and learn about financial markets.
 The platform is built with a focus on accessibility, performance on low-end
 devices, and robust offline capabilities.
@@ -38,6 +38,80 @@ devices, and robust offline capabilities.
   - PostgreSQL for primary data storage
   - SQLite for offline capabilities
 - **Development**: Monorepo structure for streamlined development
+
+## Development Roadmap
+
+### Phase 1: Project Setup and Foundation
+
+- [x] Initial requirements gathering and documentation
+- [ ] Monorepo structure setup with shared configurations
+- [ ] CI/CD pipeline implementation
+- [ ] Development environment setup
+- [ ] Core architectural decisions and technical specifications
+
+### Phase 2: Landing Page & Web Presence
+
+- [ ] Design and development of marketing website
+- [ ] SEO optimization and analytics integration
+- [ ] Documentation site for developers
+- [ ] Blog setup for project updates and financial education content
+- [ ] Deployment and monitoring infrastructure
+
+### Phase 3: Smart Contract Development & Blockchain Integration
+
+- [ ] Stellar blockchain contract architecture design
+- [ ] Wallet management implementation (custodial)
+- [ ] Key export functionality
+- [ ] Staking pool integration contracts
+- [ ] Smart contract security audits
+- [ ] Testnet deployment and testing
+
+### Phase 4: Mobile App Core Development
+
+- [ ] React Native app architecture and foundation
+- [ ] User registration and authentication
+- [ ] KYC integration
+- [ ] Offline-first database implementation
+- [ ] Portfolio view and management
+- [ ] Basic transaction capabilities
+- [ ] UI/UX development for low-end devices
+
+### Phase 5: Financial Features & Integrations
+
+- [ ] Fiat on/off ramp integration
+- [ ] Local payment gateway connections
+- [ ] Crypto asset marketplace
+- [ ] Investment functionality
+- [ ] Staking pool interface
+- [ ] Transaction history and reporting
+
+### Phase 6: Enhanced Features & Education
+
+- [ ] Gamification elements implementation
+- [ ] Educational content creation and integration
+- [ ] AI-powered risk analysis
+- [ ] Crypto sentiment indicators
+- [ ] Push notification system
+- [ ] Multi-language support
+
+### Phase 7: Admin Web Application
+
+- [ ] Admin dashboard development
+- [ ] User management interface
+- [ ] Transaction monitoring
+- [ ] Content management system
+- [ ] Analytics and reporting tools
+- [ ] Compliance monitoring tools
+
+### Phase 8: Testing, Security & Launch
+
+- [ ] Comprehensive testing across devices
+- [ ] Security audits and penetration testing
+- [ ] Performance optimization
+- [ ] Beta testing program
+- [ ] Regulatory compliance review
+- [ ] Public launch preparation
+- [ ] Marketing and user acquisition campaign
 
 ## Getting Started
 
