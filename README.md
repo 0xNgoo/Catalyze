@@ -14,6 +14,29 @@ amounts of money, manage their portfolios, and learn about financial markets.
 The platform is built with a focus on accessibility, performance on low-end
 devices, and robust offline capabilities.
 
+## Problem Statement
+
+In emerging markets, millions of people remain excluded from traditional
+investment opportunities due to:
+
+- **High Minimum Investment Requirements**: Conventional investment platforms
+  require amounts that are out of reach for many.
+- **Limited Access to Financial Services**: Many are unbanked or underbanked
+  with few pathways to build wealth.
+- **Complex User Interfaces**: Existing crypto platforms are too technical and
+  intimidating for beginners.
+- **Device & Connectivity Limitations**: Many users rely on low-end smartphones
+  with unreliable internet connections.
+- **Financial Literacy Barriers**: Lack of accessible education about investing
+  and financial concepts.
+- **Trust Deficit**: Uncertainty and mistrust in financial systems, especially
+  digital ones.
+
+Catalyze addresses these challenges directly by providing a secure, accessible
+micro-investment platform that works on low-end devices, functions offline,
+educates users, and enables investments with minimal amounts of capital through
+the Stellar blockchain.
+
 ## Key Features
 
 - **Micro-Investments**: Invest very small sums of money in cryptocurrencies and
@@ -125,8 +148,8 @@ manage contributions and reward contributors.
 ### How to Contribute
 
 1. **Find an Issue**: Browse our project on
-   [OnlyDust](https://app.onlydust.com/projects/catalyze) to find open issues that match your
-   skills and interests.
+   [OnlyDust](https://app.onlydust.com/projects/catalyze) to find open issues
+   that match your skills and interests.
 
 2. **Fork and Clone**: Fork this repository and clone it to your local machine.
 
