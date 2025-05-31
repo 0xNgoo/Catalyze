@@ -53,23 +53,105 @@ the Stellar blockchain.
 - **Multi-language Support**: Accessible in multiple local languages
 - **Fiat On/Off Ramps**: Deposit and withdraw using local payment methods
 
+## Monorepo Architecture
+
+This project uses a monorepo structure with pnpm workspaces to house all
+applications and shared packages:
+
+```
+catalyze/
+├── apps/
+│   ├── backend/          # Hono.js API server
+│   ├── contracts/        # Stellar Soroban smart contracts
+│   ├── landing/          # Vite landing page
+│   ├── mobile/           # Expo React Native app
+│   └── web/              # Next.js web application
+├── packages/
+│   ├── shared/           # Shared TypeScript definitions
+│   ├── ui/               # Shared React components
+│   ├── utils/            # Shared utility functions
+│   └── config/           # Shared configuration
+├── tools/                # Build tools and scripts
+└── docs/                 # Documentation
+```
+
 ## Tech Stack
 
+- **Package Manager**: pnpm with workspaces
 - **Frontend**: React Native (iOS & Android)
 - **Backend**: Node.js with Hono framework
 - **Database**:
   - PostgreSQL for primary data storage
   - SQLite for offline capabilities
+- **Smart Contracts**: Stellar Soroban
+- **Landing Page**: Vite + React + TypeScript
+- **Web App**: Next.js 14+ with App Router
+- **Styling**: Tailwind CSS
+- **Type Safety**: TypeScript across all applications
 - **Development**: Monorepo structure for streamlined development
+
+## Development Setup
+
+### Prerequisites
+
+- Node.js 18+
+- pnpm 8+
+- Docker & Docker Compose (for local database)
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/0xNgoo/Catalyze.git
+cd Catalyze
+```
+
+2. Install dependencies:
+
+```bash
+pnpm install
+```
+
+3. Set up environment variables:
+
+```bash
+cp env.example .env
+# Edit .env with your configuration
+```
+
+4. Start the local database:
+
+```bash
+docker-compose up -d postgres redis
+```
+
+### Development Commands
+
+- `pnpm dev` - Start all applications in development mode
+- `pnpm build` - Build all applications
+- `pnpm test` - Run tests across all packages
+- `pnpm lint` - Run ESLint across all packages
+- `pnpm format` - Format code with Prettier
+- `pnpm type-check` - Run TypeScript type checking
+- `pnpm clean` - Clean all build artifacts
+
+Or start individual applications:
+
+```bash
+pnpm --filter @catalyze/backend dev
+pnpm --filter @catalyze/web dev
+pnpm --filter @catalyze/mobile dev
+```
 
 ## Development Roadmap
 
 ### Phase 1: Project Setup and Foundation
 
 - [x] Initial requirements gathering and documentation
-- [ ] Monorepo structure setup with shared configurations
+- [x] Monorepo structure setup with shared configurations
 - [ ] CI/CD pipeline implementation
-- [ ] Development environment setup
+- [x] Development environment setup
 - [ ] Core architectural decisions and technical specifications
 
 ### Phase 2: Landing Page & Web Presence
@@ -135,10 +217,6 @@ the Stellar blockchain.
 - [ ] Regulatory compliance review
 - [ ] Public launch preparation
 - [ ] Marketing and user acquisition campaign
-
-## Getting Started
-
-Instructions for setting up the development environment will go here.
 
 ## Contributing
 

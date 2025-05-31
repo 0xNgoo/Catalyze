@@ -1,0 +1,34 @@
+{
+    "name": "catalyze",
+    "version": "1.0.0",
+    "description": "Catalyze - Agricultural Investment Platform",
+    "private": true,
+    "scripts": {
+        "dev": "pnpm --parallel --stream run dev",
+        "build": "pnpm --recursive run build",
+        "test": "pnpm --recursive run test",
+        "lint": "pnpm --recursive run lint",
+        "format": "prettier --write .",
+        "type-check": "pnpm --recursive run type-check",
+        "clean": "pnpm --recursive run clean",
+        "prepare": "husky install"
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "@typescript-eslint/eslint-plugin": "^6.0.0",
+        "@typescript-eslint/parser": "^6.0.0",
+        "eslint": "^8.0.0",
+        "eslint-config-prettier": "^9.0.0",
+        "eslint-plugin-react": "^7.33.0",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "prettier": "^3.0.0",
+        "husky": "^8.0.0",
+        "lint-staged": "^15.0.0",
+        "typescript": "^5.0.0"
+    },
+    "engines": {
+        "node": ">=18.0.0",
+        "pnpm": ">=8.0.0"
+    },
+    "packageManager": "pnpm@8.15.0"
+}
